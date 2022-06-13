@@ -1,0 +1,108 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+	font-family: 'Josefin Sans', sans-serif;
+}
+.contact{
+	height: 100vh;
+	width: 100%;
+	background-image: linear-gradient(rgba(0, 0, 0, 0.6),rgba(0, 0, 0, 0.6)),url(../img/bg.jpg);
+	background-size: cover;
+	background-position: center;
+}
+nav{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding-top: 40px;
+	padding-left: 10%;
+	padding-right: 10%;
+}
+.logo{
+	color: white;
+	font-size: 28px;
+}
+span{
+	color: white;
+}
+nav h2 a{
+    color:white;
+    font-size: 40px;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li{
+	list-style-type: none;
+	display: inline-block;
+	padding: 10px 20px;
+}
+nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #ea1538;
+    transition: .3s;
+}
+
+/* container */
+.container{
+	display: flex;
+	height: 500px;
+	width: 800px;
+	border: 1px solid black;
+	margin: auto;
+	margin-top: 50px;
+	box-shadow: 15px 15px 20px black;
+}
+
+/* Contact Form */
+.form{
+	display: flex;
+	flex-direction: column;
+	width: 50%;
+	align-items: center;
+	background-color: whitesmoke;
+}
+.form h2{
+	font-size: 3rem;
+	font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+	margin: 40px;
+}
+.box{
+	padding: 12px;
+	width: 65%;
+	margin: 15px;
+	border: 1px solid black;
+	outline:  none;
+	border-radius: 20px;
+}
+#submit{
+	padding: 12px 30px;
+	width: 40%;
+	margin-top 40px;
+	background-color: black;
+	color: white;
+	font-weight: bold;
+	border: none;
+	outline: none;
+	border-radius: 20px;
+}
+#submit:hover{
+    cursor: pointer;
+    background-color: #750000;
+}
+
+.side{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    background-color: #750000;
+}
+.side img{
+    width: 400px;
+    height: 500px;
+}
